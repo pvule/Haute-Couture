@@ -1,0 +1,12 @@
+import'./App.css'
+
+function App(){
+  return(
+    <div>
+      <p className="red"> est-ce que tu vois du bleu?</p>
+      <p className="blue"> vois-tu du rouge?</p>
+    </div>
+  );
+}
+
+export default App;

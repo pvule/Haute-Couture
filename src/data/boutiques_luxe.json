@@ -1,0 +1,1003 @@
+[
+  {
+    "id": 1,
+    "name": "Chanel Flagship Cambon",
+    "brand": "Chanel",
+    "city": "Paris",
+    "country": "France",
+    "address": "31 Rue Cambon, 75001 Paris",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 2,
+    "name": "Louis Vuitton Maison Champs-Élysées",
+    "brand": "Louis Vuitton",
+    "city": "Paris",
+    "country": "France",
+    "address": "101 Avenue des Champs-Élysées, 75008 Paris",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 3,
+    "name": "Hermès Faubourg Saint-Honoré",
+    "brand": "Hermès",
+    "city": "Paris",
+    "country": "France",
+    "address": "24 Rue du Faubourg Saint-Honoré, 75008 Paris",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 4,
+    "name": "Dior Avenue Montaigne",
+    "brand": "Dior",
+    "city": "Paris",
+    "country": "France",
+    "address": "30 Avenue Montaigne, 75008 Paris",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 5,
+    "name": "Cartier Mansion",
+    "brand": "Cartier",
+    "city": "New York",
+    "country": "USA",
+    "address": "653 5th Avenue, New York, NY 10022",
+    "category": "Jewelry",
+    "website": ""
+  },
+  {
+    "id": 6,
+    "name": "Tiffany & Co. The Landmark",
+    "brand": "Tiffany & Co.",
+    "city": "New York",
+    "country": "USA",
+    "address": "727 5th Avenue, New York, NY 10022",
+    "category": "Jewelry",
+    "website": ""
+  },
+  {
+    "id": 7,
+    "name": "Gucci Wooster",
+    "brand": "Gucci",
+    "city": "New York",
+    "country": "USA",
+    "address": "63 Wooster Street, New York, NY 10012",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 8,
+    "name": "Prada Broadway",
+    "brand": "Prada",
+    "city": "New York",
+    "country": "USA",
+    "address": "575 Broadway, New York, NY 10012",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 9,
+    "name": "Louis Vuitton 5th Avenue",
+    "brand": "Louis Vuitton",
+    "city": "New York",
+    "country": "USA",
+    "address": "1 E 57th Street, New York, NY 10022",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 10,
+    "name": "Dior Madison Avenue",
+    "brand": "Dior",
+    "city": "New York",
+    "country": "USA",
+    "address": "677 Madison Avenue, New York, NY 10065",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 11,
+    "name": "Chanel New Bond Street",
+    "brand": "Chanel",
+    "city": "London",
+    "country": "Royaume-Uni",
+    "address": "159 New Bond Street, London W1S 2UE",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 12,
+    "name": "Burberry Regent Street",
+    "brand": "Burberry",
+    "city": "London",
+    "country": "Royaume-Uni",
+    "address": "121 Regent Street, London W1B 4TB",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 13,
+    "name": "Harrods",
+    "brand": "Harrods",
+    "city": "London",
+    "country": "Royaume-Uni",
+    "address": "87-135 Brompton Road, London SW1X 7XL",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 14,
+    "name": "Selfridges London",
+    "brand": "Selfridges",
+    "city": "London",
+    "country": "Royaume-Uni",
+    "address": "400 Oxford Street, London W1A 1AB",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 15,
+    "name": "Hermès Bond Street",
+    "brand": "Hermès",
+    "city": "London",
+    "country": "Royaume-Uni",
+    "address": "155 New Bond Street, London W1S 2UA",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 16,
+    "name": "Gucci Sloane Street",
+    "brand": "Gucci",
+    "city": "London",
+    "country": "Royaume-Uni",
+    "address": "18-19 Sloane Street, London SW1X 9LB",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 17,
+    "name": "Dolce & Gabbana Via Montenapoleone",
+    "brand": "Dolce & Gabbana",
+    "city": "Milan",
+    "country": "Italie",
+    "address": "Via Monte Napoleone 4, 20121 Milano",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 18,
+    "name": "Prada Galleria Vittorio Emanuele II",
+    "brand": "Prada",
+    "city": "Milan",
+    "country": "Italie",
+    "address": "Galleria Vittorio Emanuele II, 20121 Milano",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 19,
+    "name": "Gucci Via Montenapoleone",
+    "brand": "Gucci",
+    "city": "Milan",
+    "country": "Italie",
+    "address": "Via Monte Napoleone 5, 20121 Milano",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 20,
+    "name": "Armani Silos Store",
+    "brand": "Armani",
+    "city": "Milan",
+    "country": "Italie",
+    "address": "Via Bergognone 40, 20144 Milano",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 21,
+    "name": "Buccellati Boutique",
+    "brand": "Buccellati",
+    "city": "Milan",
+    "country": "Italie",
+    "address": "Via Monte Napoleone 23, 20121 Milano",
+    "category": "Jewelry",
+    "website": ""
+  },
+  {
+    "id": 22,
+    "name": "Chanel Ginza",
+    "brand": "Chanel",
+    "city": "Tokyo",
+    "country": "Japon",
+    "address": "3-5-3 Ginza, Chuo-ku, Tokyo 104-0061",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 23,
+    "name": "Louis Vuitton Namiki",
+    "brand": "Louis Vuitton",
+    "city": "Tokyo",
+    "country": "Japon",
+    "address": "7-6-1 Ginza, Chuo-ku, Tokyo 104-0061",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 24,
+    "name": "Dior Omotesando",
+    "brand": "Dior",
+    "city": "Tokyo",
+    "country": "Japon",
+    "address": "5-9-11 Jingumae, Shibuya-ku, Tokyo",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 25,
+    "name": "Gucci Ginza",
+    "brand": "Gucci",
+    "city": "Tokyo",
+    "country": "Japon",
+    "address": "4-4-10 Ginza, Chuo-ku, Tokyo",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 26,
+    "name": "Hermès Ginza",
+    "brand": "Hermès",
+    "city": "Tokyo",
+    "country": "Japon",
+    "address": "5-4-1 Ginza, Chuo-ku, Tokyo",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 27,
+    "name": "Louis Vuitton Maison Osaka Midosuji",
+    "brand": "Louis Vuitton",
+    "city": "Osaka",
+    "country": "Japon",
+    "address": "2-8-16 Shinsaibashi-suji, Chuo-ku, Osaka",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 28,
+    "name": "Chanel Rodeo Drive",
+    "brand": "Chanel",
+    "city": "Beverly Hills",
+    "country": "USA",
+    "address": "400 N Rodeo Drive, Beverly Hills, CA 90210",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 29,
+    "name": "Gucci Rodeo Drive",
+    "brand": "Gucci",
+    "city": "Beverly Hills",
+    "country": "USA",
+    "address": "347 N Rodeo Drive, Beverly Hills, CA 90210",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 30,
+    "name": "Hermès Beverly Hills",
+    "brand": "Hermès",
+    "city": "Beverly Hills",
+    "country": "USA",
+    "address": "434 N Rodeo Drive, Beverly Hills, CA 90210",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 31,
+    "name": "Louis Vuitton Rodeo Drive",
+    "brand": "Louis Vuitton",
+    "city": "Beverly Hills",
+    "country": "USA",
+    "address": "295 N Rodeo Drive, Beverly Hills, CA 90210",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 32,
+    "name": "Dior Rodeo Drive",
+    "brand": "Dior",
+    "city": "Beverly Hills",
+    "country": "USA",
+    "address": "317 N Rodeo Drive, Beverly Hills, CA 90210",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 33,
+    "name": "Chanel Via Condotti",
+    "brand": "Chanel",
+    "city": "Rome",
+    "country": "Italie",
+    "address": "Via dei Condotti 11, 00187 Roma",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 34,
+    "name": "Bulgari Via Condotti",
+    "brand": "Bulgari",
+    "city": "Rome",
+    "country": "Italie",
+    "address": "Via dei Condotti 10, 00187 Roma",
+    "category": "Jewelry",
+    "website": ""
+  },
+  {
+    "id": 35,
+    "name": "Gucci Via Condotti",
+    "brand": "Gucci",
+    "city": "Rome",
+    "country": "Italie",
+    "address": "Via Condotti 73-74, 00187 Roma",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 36,
+    "name": "Fendi Palazzo Fendi",
+    "brand": "Fendi",
+    "city": "Rome",
+    "country": "Italie",
+    "address": "Largo Carlo Goldoni, 00187 Roma",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 37,
+    "name": "Louis Vuitton Via Condotti",
+    "brand": "Louis Vuitton",
+    "city": "Rome",
+    "country": "Italie",
+    "address": "Via Condotti 13, 00187 Roma",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 38,
+    "name": "Chanel Avenue Montaigne",
+    "brand": "Chanel",
+    "city": "Paris",
+    "country": "France",
+    "address": "51 Avenue Montaigne, 75008 Paris",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 39,
+    "name": "Saint Laurent Rive Droite",
+    "brand": "Saint Laurent",
+    "city": "Paris",
+    "country": "France",
+    "address": "213 Rue Saint-Honoré, 75001 Paris",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 40,
+    "name": "Balenciaga Rue Saint-Honoré",
+    "brand": "Balenciaga",
+    "city": "Paris",
+    "country": "France",
+    "address": "336 Rue Saint-Honoré, 75001 Paris",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 41,
+    "name": "Loewe Avenue Montaigne",
+    "brand": "Loewe",
+    "city": "Paris",
+    "country": "France",
+    "address": "22 Avenue Montaigne, 75008 Paris",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 42,
+    "name": "Boucheron Place Vendôme",
+    "brand": "Boucheron",
+    "city": "Paris",
+    "country": "France",
+    "address": "26 Place Vendôme, 75001 Paris",
+    "category": "Jewelry",
+    "website": ""
+  },
+  {
+    "id": 43,
+    "name": "Van Cleef & Arpels Vendôme",
+    "brand": "Van Cleef & Arpels",
+    "city": "Paris",
+    "country": "France",
+    "address": "22 Place Vendôme, 75001 Paris",
+    "category": "Jewelry",
+    "website": ""
+  },
+  {
+    "id": 44,
+    "name": "Cartier Rue de la Paix",
+    "brand": "Cartier",
+    "city": "Paris",
+    "country": "France",
+    "address": "13 Rue de la Paix, 75002 Paris",
+    "category": "Jewelry",
+    "website": ""
+  },
+  {
+    "id": 45,
+    "name": "Chanel Canton Road",
+    "brand": "Chanel",
+    "city": "Hong Kong",
+    "country": "Chine",
+    "address": "2 Canton Road, Tsim Sha Tsui, Hong Kong",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 46,
+    "name": "Louis Vuitton Landmark",
+    "brand": "Louis Vuitton",
+    "city": "Hong Kong",
+    "country": "Chine",
+    "address": "5 Canton Road, Tsim Sha Tsui, Hong Kong",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 47,
+    "name": "Gucci Canton Road",
+    "brand": "Gucci",
+    "city": "Hong Kong",
+    "country": "Chine",
+    "address": "3 Canton Road, Tsim Sha Tsui, Hong Kong",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 48,
+    "name": "Hermès Central",
+    "brand": "Hermès",
+    "city": "Hong Kong",
+    "country": "Chine",
+    "address": "16 Queen’s Road Central, Hong Kong",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 49,
+    "name": "Dior Plaza 66",
+    "brand": "Dior",
+    "city": "Shanghai",
+    "country": "Chine",
+    "address": "1266 Nanjing West Road, Shanghai",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 50,
+    "name": "Louis Vuitton Plaza 66",
+    "brand": "Louis Vuitton",
+    "city": "Shanghai",
+    "country": "Chine",
+    "address": "1266 Nanjing West Road, Shanghai",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 51,
+    "name": "Hermès Maison Shanghai",
+    "brand": "Hermès",
+    "city": "Shanghai",
+    "country": "Chine",
+    "address": "216 Huaihai Middle Road, Shanghai",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 52,
+    "name": "Gucci Plaza 66",
+    "brand": "Gucci",
+    "city": "Shanghai",
+    "country": "Chine",
+    "address": "1266 Nanjing West Road, Shanghai",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 53,
+    "name": "Chanel Plaza 66",
+    "brand": "Chanel",
+    "city": "Shanghai",
+    "country": "Chine",
+    "address": "1266 Nanjing West Road, Shanghai",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 54,
+    "name": "Prada ION Orchard",
+    "brand": "Prada",
+    "city": "Singapore",
+    "country": "Singapour",
+    "address": "2 Orchard Turn, Singapore 238801",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 55,
+    "name": "Louis Vuitton Island Maison",
+    "brand": "Louis Vuitton",
+    "city": "Singapore",
+    "country": "Singapour",
+    "address": "2 Bayfront Avenue, Singapore 018972",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 56,
+    "name": "Chanel Ngee Ann City",
+    "brand": "Chanel",
+    "city": "Singapore",
+    "country": "Singapour",
+    "address": "391 Orchard Road, Singapore 238872",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 57,
+    "name": "Hermès Liat Towers",
+    "brand": "Hermès",
+    "city": "Singapore",
+    "country": "Singapour",
+    "address": "541 Orchard Road, Singapore 238881",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 58,
+    "name": "Gucci Paragon",
+    "brand": "Gucci",
+    "city": "Singapore",
+    "country": "Singapour",
+    "address": "290 Orchard Road, Singapore 238859",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 59,
+    "name": "Dior Marina Bay Sands",
+    "brand": "Dior",
+    "city": "Singapore",
+    "country": "Singapour",
+    "address": "2 Bayfront Avenue, Singapore 018972",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 60,
+    "name": "Chanel Dubai Mall",
+    "brand": "Chanel",
+    "city": "Dubai",
+    "country": "Émirats arabes unis",
+    "address": "Dubai Mall, Downtown Dubai",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 61,
+    "name": "Louis Vuitton Dubai Mall",
+    "brand": "Louis Vuitton",
+    "city": "Dubai",
+    "country": "Émirats arabes unis",
+    "address": "Dubai Mall, Downtown Dubai",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 62,
+    "name": "Gucci Mall of the Emirates",
+    "brand": "Gucci",
+    "city": "Dubai",
+    "country": "Émirats arabes unis",
+    "address": "Mall of the Emirates, Sheikh Zayed Road",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 63,
+    "name": "Dior Dubai Mall",
+    "brand": "Dior",
+    "city": "Dubai",
+    "country": "Émirats arabes unis",
+    "address": "Dubai Mall, Downtown Dubai",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 64,
+    "name": "Hermès Mall of the Emirates",
+    "brand": "Hermès",
+    "city": "Dubai",
+    "country": "Émirats arabes unis",
+    "address": "Mall of the Emirates, Sheikh Zayed Road",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 65,
+    "name": "Cartier Dubai Mall",
+    "brand": "Cartier",
+    "city": "Dubai",
+    "country": "Émirats arabes unis",
+    "address": "Dubai Mall, Downtown Dubai",
+    "category": "Jewelry",
+    "website": ""
+  },
+  {
+    "id": 66,
+    "name": "Chanel Bahnhofstrasse",
+    "brand": "Chanel",
+    "city": "Zurich",
+    "country": "Suisse",
+    "address": "Bahnhofstrasse 10, 8001 Zürich",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 67,
+    "name": "Cartier Bahnhofstrasse",
+    "brand": "Cartier",
+    "city": "Zurich",
+    "country": "Suisse",
+    "address": "Bahnhofstrasse 47, 8001 Zürich",
+    "category": "Jewelry",
+    "website": ""
+  },
+  {
+    "id": 68,
+    "name": "Gucci Bahnhofstrasse",
+    "brand": "Gucci",
+    "city": "Zurich",
+    "country": "Suisse",
+    "address": "Bahnhofstrasse 3, 8001 Zürich",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 69,
+    "name": "Hermès Zurich",
+    "brand": "Hermès",
+    "city": "Zurich",
+    "country": "Suisse",
+    "address": "Bahnhofstrasse 17, 8001 Zürich",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 70,
+    "name": "Rolex Boutique Geneva",
+    "brand": "Rolex",
+    "city": "Genève",
+    "country": "Suisse",
+    "address": "Rue du Rhône 29, 1204 Genève",
+    "category": "Watches",
+    "website": ""
+  },
+  {
+    "id": 71,
+    "name": "Patek Philippe Salon",
+    "brand": "Patek Philippe",
+    "city": "Genève",
+    "country": "Suisse",
+    "address": "Rue du Rhône 41, 1204 Genève",
+    "category": "Watches",
+    "website": ""
+  },
+  {
+    "id": 72,
+    "name": "Chanel Rue du Rhône",
+    "brand": "Chanel",
+    "city": "Genève",
+    "country": "Suisse",
+    "address": "Rue du Rhône 43, 1204 Genève",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 73,
+    "name": "Louis Vuitton Maison Seoul",
+    "brand": "Louis Vuitton",
+    "city": "Séoul",
+    "country": "Corée du Sud",
+    "address": "454 Apgujeong-ro, Gangnam-gu, Seoul",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 74,
+    "name": "Dior Seoul",
+    "brand": "Dior",
+    "city": "Séoul",
+    "country": "Corée du Sud",
+    "address": "464 Apgujeong-ro, Gangnam-gu, Seoul",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 75,
+    "name": "Gucci Gaok Seoul",
+    "brand": "Gucci",
+    "city": "Séoul",
+    "country": "Corée du Sud",
+    "address": "407 Apgujeong-ro, Gangnam-gu, Seoul",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 76,
+    "name": "Hermès Dosan Park",
+    "brand": "Hermès",
+    "city": "Séoul",
+    "country": "Corée du Sud",
+    "address": "45 Dosan-daero 45-gil, Gangnam-gu, Seoul",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 77,
+    "name": "Chanel Cheongdam",
+    "brand": "Chanel",
+    "city": "Séoul",
+    "country": "Corée du Sud",
+    "address": "730 Apgujeong-ro, Gangnam-gu, Seoul",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 78,
+    "name": "Louis Vuitton Sydney",
+    "brand": "Louis Vuitton",
+    "city": "Sydney",
+    "country": "Australie",
+    "address": "365 George Street, Sydney NSW 2000",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 79,
+    "name": "Chanel Sydney",
+    "brand": "Chanel",
+    "city": "Sydney",
+    "country": "Australie",
+    "address": "70 Castlereagh Street, Sydney NSW 2000",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 80,
+    "name": "Gucci Sydney",
+    "brand": "Gucci",
+    "city": "Sydney",
+    "country": "Australie",
+    "address": "155 George Street, The Rocks NSW 2000",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 81,
+    "name": "Prada Sydney",
+    "brand": "Prada",
+    "city": "Sydney",
+    "country": "Australie",
+    "address": "365 George Street, Sydney NSW 2000",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 82,
+    "name": "Louis Vuitton Mexico City",
+    "brand": "Louis Vuitton",
+    "city": "Mexico",
+    "country": "Mexique",
+    "address": "Av. Presidente Masaryk 454, Polanco, CDMX",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 83,
+    "name": "Cartier Polanco",
+    "brand": "Cartier",
+    "city": "Mexico",
+    "country": "Mexique",
+    "address": "Av. Presidente Masaryk 460, Polanco, CDMX",
+    "category": "Jewelry",
+    "website": ""
+  },
+  {
+    "id": 84,
+    "name": "Gucci Masaryk",
+    "brand": "Gucci",
+    "city": "Mexico",
+    "country": "Mexique",
+    "address": "Av. Presidente Masaryk 360, Polanco, CDMX",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 85,
+    "name": "Louis Vuitton São Paulo",
+    "brand": "Louis Vuitton",
+    "city": "São Paulo",
+    "country": "Brésil",
+    "address": "Shopping Cidade Jardim, São Paulo",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 86,
+    "name": "Gucci Cidade Jardim",
+    "brand": "Gucci",
+    "city": "São Paulo",
+    "country": "Brésil",
+    "address": "Shopping Cidade Jardim, São Paulo",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 87,
+    "name": "Chanel Cidade Jardim",
+    "brand": "Chanel",
+    "city": "São Paulo",
+    "country": "Brésil",
+    "address": "Shopping Cidade Jardim, São Paulo",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 88,
+    "name": "Louis Vuitton Istanbul",
+    "brand": "Louis Vuitton",
+    "city": "Istanbul",
+    "country": "Turquie",
+    "address": "Zorlu Center, Beşiktaş, Istanbul",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 89,
+    "name": "Gucci Istanbul",
+    "brand": "Gucci",
+    "city": "Istanbul",
+    "country": "Turquie",
+    "address": "Zorlu Center, Beşiktaş, Istanbul",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 90,
+    "name": "Dior Istanbul",
+    "brand": "Dior",
+    "city": "Istanbul",
+    "country": "Turquie",
+    "address": "Istinye Park, Sarıyer, Istanbul",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 91,
+    "name": "Chanel Vienna",
+    "brand": "Chanel",
+    "city": "Vienne",
+    "country": "Autriche",
+    "address": "Tuchlauben 7A, 1010 Wien",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 92,
+    "name": "Louis Vuitton Vienna",
+    "brand": "Louis Vuitton",
+    "city": "Vienne",
+    "country": "Autriche",
+    "address": "Graben 20, 1010 Wien",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 93,
+    "name": "Gucci Vienna",
+    "brand": "Gucci",
+    "city": "Vienne",
+    "country": "Autriche",
+    "address": "Kohlmarkt 5, 1010 Wien",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 94,
+    "name": "Prada Vienna",
+    "brand": "Prada",
+    "city": "Vienne",
+    "country": "Autriche",
+    "address": "Tuchlauben 3, 1010 Wien",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 95,
+    "name": "Chanel Munich",
+    "brand": "Chanel",
+    "city": "Munich",
+    "country": "Allemagne",
+    "address": "Maximilianstraße 20, 80539 München",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 96,
+    "name": "Louis Vuitton Munich",
+    "brand": "Louis Vuitton",
+    "city": "Munich",
+    "country": "Allemagne",
+    "address": "Maximilianstraße 2A, 80539 München",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 97,
+    "name": "Gucci Munich",
+    "brand": "Gucci",
+    "city": "Munich",
+    "country": "Allemagne",
+    "address": "Maximilianstraße 35A, 80539 München",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 98,
+    "name": "Dior Munich",
+    "brand": "Dior",
+    "city": "Munich",
+    "country": "Allemagne",
+    "address": "Maximilianstraße 14, 80539 München",
+    "category": "Fashion",
+    "website": ""
+  },
+  {
+    "id": 99,
+    "name": "Hermès Munich",
+    "brand": "Hermès",
+    "city": "Munich",
+    "country": "Allemagne",
+    "address": "Maximilianstraße 12, 80539 München",
+    "category": "Leather goods",
+    "website": ""
+  },
+  {
+    "id": 100,
+    "name": "Cartier Munich",
+    "brand": "Cartier",
+    "city": "Munich",
+    "country": "Allemagne",
+    "address": "Maximilianstraße 20, 80539 München",
+    "category": "Jewelry",
+    "website": ""
+  }
+]
+

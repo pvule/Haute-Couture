@@ -1,0 +1,119 @@
+/* MODE PAGE */
+.mode {
+  min-height: 100vh;
+}
+
+/* Mini panier */
+.mode-cart-mini {
+  position: fixed;
+  top: 95px;
+  right: 20px;
+  z-index: 2500;
+  background: transparent;
+  border-radius: 999px;
+  box-shadow: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+
+.mode-cart-mini-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mode-cart-icon {
+  font-size: 1.35rem;
+}
+
+.mode-cart-count {
+  font-weight: 800;
+  min-width: 22px;
+  text-align: center;
+}
+
+.mode-cart-mini-label {
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+
+.mode-cart-mini-total {
+  display: none;
+}
+
+
+/* Collections */
+.collections {
+  padding: 80px 40px;
+  background: #f0f0f0;
+}
+
+.collections h2 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 3rem;
+  letter-spacing: 3px;
+}
+
+/* Card overlay (compatible avec App.css) */
+.overlay {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.overlay-price {
+  font-weight: 800;
+  color: #111;
+}
+
+.overlay-actions {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  margin-top: 0;
+  border-radius: 12px;
+}
+
+.btn-add {
+  background: rgba(0,0,0,0.85);
+  color: #fff;
+  border: 1px solid rgba(0,0,0,0.85);
+  padding: 10px 14px;
+}
+
+.btn-add:hover {
+  opacity: 0.92;
+  background: rgba(0,0,0,1);
+}
+
+.runway {
+  padding: 80px 40px;
+  text-align: center;
+  background: #fff;
+}
+
+.runway h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.runway p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .mode-cart-mini {
+    top: 78px;
+    right: 12px;
+    padding: 10px 12px;
+  }
+}
+
