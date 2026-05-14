@@ -135,6 +135,91 @@ body {
   gap: 16px;
 }
 
+.connexion-message {
+  margin: 16px 0 0;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.connexion-message-success {
+  color: #9df2bb;
+}
+
+.connexion-message-error {
+  color: #ff8f8f;
+}
+
+.signup-success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+  margin-top: 24px;
+  padding: 26px 22px;
+
+  border-radius: 18px;
+  border: 1px solid rgba(157, 242, 187, 0.32);
+  background: rgba(20, 70, 44, 0.32);
+  box-shadow: inset 0 0 24px rgba(157, 242, 187, 0.08);
+
+  text-align: center;
+}
+
+.signup-success-warning {
+  border-color: rgba(255, 206, 115, 0.38);
+  background: rgba(82, 58, 20, 0.36);
+  box-shadow: inset 0 0 24px rgba(255, 206, 115, 0.08);
+}
+
+.signup-success-icon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #9df2bb;
+  box-shadow: 0 0 28px rgba(157, 242, 187, 0.32);
+}
+
+.signup-success-warning .signup-success-icon {
+  background: #ffce73;
+  box-shadow: 0 0 28px rgba(255, 206, 115, 0.28);
+}
+
+.signup-success-icon::after {
+  content: "";
+  position: absolute;
+  left: 17px;
+  top: 11px;
+  width: 12px;
+  height: 22px;
+  border: solid #0f2b1d;
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+}
+
+.signup-success h2 {
+  margin: 2px 0 0;
+  font-size: 1.45rem;
+}
+
+.signup-success p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.86);
+  line-height: 1.55;
+}
+
+.signup-success strong {
+  color: #fff;
+  word-break: break-word;
+}
+
+.signup-success-note {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.62) !important;
+}
+
 .tab {
   flex: 1;
 

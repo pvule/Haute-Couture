@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { signOut } from "firebase/auth";
-import { auth } from "../firebase";
+import { supabase } from "../supabase";
 
 export default function Deconnexion() {
   const navigate = useNavigate();
@@ -10,7 +9,7 @@ export default function Deconnexion() {
   useEffect(() => {
     async function logout() {
       try {
-        await signOut(auth);
+        await supabase.auth.signOut();
       } catch (err) {
         console.error(err);
       } finally {

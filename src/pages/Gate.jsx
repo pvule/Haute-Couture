@@ -5,7 +5,7 @@ import "./Gate.css";
 
 export default function Gate() {
   const navigate = useNavigate();
-  const { user, loading } = useContext(AuthContext);
+  const { loading } = useContext(AuthContext);
 
  useEffect(() => {
     if (loading) return;

@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { createContext, useEffect, useMemo, useState } from "react";
 
 export const CartContext = createContext(null);
@@ -19,17 +20,14 @@ function normalizeCart(raw) {
 }
 
 export function CartProvider({ children }) {
-  const [items, setItems] = useState([]);
-
-  useEffect(() => {
+  const [items, setItems] = useState(() => {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
-      if (!raw) return;
-      setItems(normalizeCart(JSON.parse(raw)));
+      return raw ? normalizeCart(JSON.parse(raw)) : [];
     } catch {
-      // ignore
+      return [];
     }
-  }, []);
+  });
 
   useEffect(() => {
     try {
@@ -81,6 +79,10 @@ export function CartProvider({ children }) {
     setItems([]);
   }
 
+  function replaceItems(nextItems) {
+    setItems(normalizeCart(nextItems));
+  }
+
   const value = {
     items,
     cartCount,
@@ -89,6 +91,7 @@ export function CartProvider({ children }) {
     setQty,
     removeItem,
     clearCart,
+    replaceItems,
   };
 
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>;

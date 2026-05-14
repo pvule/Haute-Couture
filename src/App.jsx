@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CartProvider } from "./context/CartContext";
 import { AuthProvider } from "./context/AuthContext";
+import CartSync from "./context/CartSupabaseSync";
 
 // Import du Header pour qu'il soit global
 import Header from "./components/Header"; 
@@ -13,6 +14,7 @@ import Lifestyle from "./pages/Lifestyle";
 import Culture from "./pages/Culture";
 import Connexion from "./pages/Connexion";
 import Deconnexion from "./pages/Deconnexion";
+import AuthCallback from "./pages/AuthCallback";
 import BoutiquesMap from "./pages/BoutiquesMap";
 import Gate from "./pages/Gate";
 import Home from "./pages/home";
@@ -22,6 +24,7 @@ function App() {
   return (
     <AuthProvider>
       <CartProvider>
+        <CartSync />
         <BrowserRouter>
           {/* ✅ Le Header est placé ici pour apparaître sur TOUTES les pages */}
           <Header /> 
@@ -48,6 +51,7 @@ function App() {
               <Route path="/abonnement" element={<div>Page Abonnement</div>} />
 
               <Route path="/connexion" element={<Connexion />} />
+              <Route path="/auth/callback" element={<AuthCallback />} />
               <Route path="/deconnexion" element={<Deconnexion />} />
               <Route path="/panier" element={<Panier />} />
 
