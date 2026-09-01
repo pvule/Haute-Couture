@@ -9,12 +9,22 @@ Set these variables locally and in Vercel:
 ```env
 VITE_SUPABASE_URL=
 VITE_SUPABASE_PUBLISHABLE_KEY=
+VITE_SITE_URL=http://localhost:5173
+VITE_AUTH_REDIRECT_URL=http://localhost:5173/auth/callback
 ```
 
 The signup flow stores users and profiles in Supabase. The optional welcome
 email endpoint uses `/api/send-email`; if you keep it enabled on Vercel, set
-`SMTP_USER` and `SMTP_PASS` in Vercel environment variables, not in frontend
-Vite env files.
+`SMTP_USER`, `SMTP_PASS`, and optionally `ALLOWED_ORIGINS` in Vercel
+environment variables, not in frontend Vite env files.
+
+For production, set:
+
+```env
+VITE_SITE_URL=https://your-vercel-domain.vercel.app
+VITE_AUTH_REDIRECT_URL=https://your-vercel-domain.vercel.app/auth/callback
+ALLOWED_ORIGINS=https://your-vercel-domain.vercel.app
+```
 
 In Supabase Authentication URL Configuration, add these redirect URLs:
 

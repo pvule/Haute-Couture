@@ -5,7 +5,7 @@ import '../App.css';
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-   const navItems = [
+  const navItems = [
     { label: 'DASHBOARD', route: 'dashboard' },
     { label: 'TRANSACTIONS', route: 'transactions' },
     { label: 'HISTORIQUE', route: 'historique' },

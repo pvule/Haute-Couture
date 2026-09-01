@@ -2,6 +2,10 @@ const nodemailer = require('nodemailer');
 
 const SMTP_USER = process.env.SMTP_USER;
 const SMTP_PASS = process.env.SMTP_PASS;
+const ALLOWED_ORIGINS = (process.env.ALLOWED_ORIGINS || '')
+  .split(',')
+  .map((origin) => origin.trim())
+  .filter(Boolean);
 const SMTP_PLACEHOLDERS = new Set([
   'your-gmail@gmail.com',
   'your-gmail-address@gmail.com',
@@ -39,7 +43,19 @@ function createTransporter() {
 }
 
 module.exports = async function handler(req, res) {
-  res.setHeader('Access-Control-Allow-Origin', '*');
+  const requestOrigin = req.headers.origin;
+  const isAllowedOrigin =
+    !requestOrigin ||
+    ALLOWED_ORIGINS.length === 0 ||
+    ALLOWED_ORIGINS.includes(requestOrigin) ||
+    /^http:\/\/localhost:\d+$/.test(requestOrigin);
+
+  if (!isAllowedOrigin) {
+    return res.status(403).json({ message: 'Origine non autorisee.' });
+  }
+
+  res.setHeader('Access-Control-Allow-Origin', requestOrigin || '*');
+  res.setHeader('Vary', 'Origin');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
@@ -51,13 +67,21 @@ module.exports = async function handler(req, res) {
     return res.status(405).json({ message: 'Methode non autorisee.' });
   }
 
-  // Check if SMTP is configured
+  let body = req.body || {};
+  if (typeof body === 'string') {
+    try {
+      body = JSON.parse(body || '{}');
+    } catch {
+      return res.status(400).json({ message: 'Corps JSON invalide.' });
+    }
+  }
+
   if (!SMTP_USER || !SMTP_PASS || SMTP_PLACEHOLDERS.has(SMTP_USER) || SMTP_PLACEHOLDERS.has(SMTP_PASS)) {
     console.warn('SMTP non configuré - Email skippé');
     return res.status(200).json({ message: 'Email skippé (SMTP non configuré)', skipped: true });
   }
 
-  const { to, name } = req.body || {};
+  const { to, name } = body;
 
   if (!to) {
     return res.status(400).json({ message: 'Adresse email destinataire manquante.' });

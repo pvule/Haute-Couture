@@ -5,6 +5,10 @@ export const CartContext = createContext(null);
 
 const STORAGE_KEY = "mon_app2_cart_v1";
 
+function canUseLocalStorage() {
+  return typeof window !== "undefined" && Boolean(window.localStorage);
+}
+
 function normalizeCart(raw) {
   if (!Array.isArray(raw)) return [];
   return raw
@@ -21,6 +25,8 @@ function normalizeCart(raw) {
 
 export function CartProvider({ children }) {
   const [items, setItems] = useState(() => {
+    if (!canUseLocalStorage()) return [];
+
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
       return raw ? normalizeCart(JSON.parse(raw)) : [];
@@ -30,6 +36,8 @@ export function CartProvider({ children }) {
   });
 
   useEffect(() => {
+    if (!canUseLocalStorage()) return;
+
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
     } catch {

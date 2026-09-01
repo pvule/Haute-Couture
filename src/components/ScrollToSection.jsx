@@ -1,5 +1,6 @@
-import { useEffect } from 'react';
-import Home from '../pages/home';
+import { lazy, Suspense, useEffect } from 'react';
+
+const Home = lazy(() => import('../pages/home'));
 
 function ScrollToSection({ sectionId }) {
   useEffect(() => {
@@ -9,7 +10,11 @@ function ScrollToSection({ sectionId }) {
     }
   }, [sectionId]);
 
-  return <Home />;
+  return (
+    <Suspense fallback={<div style={{ padding: 24 }}>Chargement...</div>}>
+      <Home />
+    </Suspense>
+  );
 }
 
 export default ScrollToSection;

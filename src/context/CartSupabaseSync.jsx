@@ -3,6 +3,10 @@ import { AuthContext } from "./AuthContext";
 import { CartContext } from "./CartContext";
 import { supabase } from "../supabase";
 
+function canUseLocalStorage() {
+  return typeof window !== "undefined" && Boolean(window.localStorage);
+}
+
 export default function CartSync() {
   const { user, loading: authLoading } = useContext(AuthContext);
   const cart = useContext(CartContext);
@@ -45,6 +49,8 @@ export default function CartSync() {
         isHydratingRef.current = false;
       }
 
+      if (!canUseLocalStorage()) return;
+
       try {
         const savedCart = localStorage.getItem(`cart_${currentUserId}`);
         if (savedCart) {
@@ -66,10 +72,12 @@ export default function CartSync() {
     async function saveCart() {
       const items = cart.items ?? [];
 
-      localStorage.setItem(
-        `cart_${currentUserId}`,
-        JSON.stringify(items)
-      );
+      if (canUseLocalStorage()) {
+        localStorage.setItem(
+          `cart_${currentUserId}`,
+          JSON.stringify(items)
+        );
+      }
 
       const { error } = await supabase.from("user_carts").upsert(
         {

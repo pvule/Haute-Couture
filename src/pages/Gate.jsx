@@ -5,10 +5,15 @@ import "./Gate.css";
 
 export default function Gate() {
   const navigate = useNavigate();
-  const { loading } = useContext(AuthContext);
+  const { loading, user } = useContext(AuthContext);
 
  useEffect(() => {
     if (loading) return;
+
+    if (user) {
+      navigate("/home", { replace: true });
+      return;
+    }
 
     // Attend 3 secondes puis va à la connexion
     const timer = setTimeout(() => {
@@ -16,7 +21,7 @@ export default function Gate() {
     }, 3000);
 
     return () => clearTimeout(timer);
-  }, [loading, navigate]);
+  }, [loading, user, navigate]);
   return (
     <div className="gate-page" onClick={() => navigate("/connexion")}>
       <div className="gate-surface">

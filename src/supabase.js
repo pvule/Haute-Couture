@@ -14,5 +14,13 @@ if (!hasSupabaseConfig) {
 
 export const supabase = createClient(
   supabaseUrl || "https://placeholder.supabase.co",
-  supabasePublishableKey || "placeholder-publishable-key"
+  supabasePublishableKey || "placeholder-publishable-key",
+  {
+    auth: {
+      autoRefreshToken: true,
+      detectSessionInUrl: true,
+      persistSession: true,
+      storageKey: "mon-app2-auth",
+    },
+  }
 );
