@@ -1,66 +1,45 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { CartProvider } from "./context/CartContext";
 import { AuthProvider } from "./context/AuthContext";
-import CartSync from "./context/CartSupabaseSync";
+import { FinanceProvider } from "./context/FinanceContext";
 
-// Import du Header pour qu'il soit global
-import Header from "./components/Header"; 
+import Header from "./components/Header";
 
-import Panier from "./pages/Panier";
-import Gallery from "./pages/Gallery";
-import Recherche from "./pages/Recherche";
-import Mode from "./pages/Mode";
-import Lifestyle from "./pages/Lifestyle";
-import Culture from "./pages/Culture";
 import Connexion from "./pages/Connexion";
 import Deconnexion from "./pages/Deconnexion";
 import AuthCallback from "./pages/AuthCallback";
-import BoutiquesMap from "./pages/BoutiquesMap";
-import Gate from "./pages/Gate";
-import Home from "./pages/home";
-import ScrollToSection from "./components/ScrollToSection";
+import Dashboard from "./pages/family-bank/Dashboard";
+import Transactions from "./pages/family-bank/Transactions";
+import Historique from "./pages/family-bank/Historique";
+import Cotisations from "./pages/family-bank/Cotisations";
+import Membres from "./pages/family-bank/Membres";
+import Objectifs from "./pages/family-bank/Objectifs";
 
 function App() {
   return (
     <AuthProvider>
-      <CartProvider>
-        <CartSync />
+      <FinanceProvider>
         <BrowserRouter>
-          {/* ✅ Le Header est placé ici pour apparaître sur TOUTES les pages */}
-          <Header /> 
+          <Header />
 
           <main className="main-content">
             <Routes>
-              {/* 🔐 Page d'entrée (Porte) */}
-              <Route path="/" element={<Gate />} />
-
-              {/* Pages principales */}
-              <Route path="/home" element={<Home />} />
-              <Route path="/galerie" element={<Gallery />} />
-              <Route path="/recherche" element={<Recherche />} />
-              <Route path="/mode" element={<Mode />} />
-              <Route path="/lifestyle" element={<Lifestyle />} />
-              <Route path="/culture" element={<Culture />} />
-              <Route path="/boutiques" element={<BoutiquesMap />} />
-
-              {/* Ancres de défilement */}
-              <Route path="/about" element={<ScrollToSection sectionId="about" />} />
-              <Route path="/blog" element={<ScrollToSection sectionId="blog" />} />
-              <Route path="/contact" element={<ScrollToSection sectionId="contact" />} />
-
-              <Route path="/abonnement" element={<div>Page Abonnement</div>} />
+              <Route path="/" element={<Dashboard />} />
+              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/transactions" element={<Transactions />} />
+              <Route path="/historique" element={<Historique />} />
+              <Route path="/cotisations" element={<Cotisations />} />
+              <Route path="/membres" element={<Membres />} />
+              <Route path="/objectifs" element={<Objectifs />} />
 
               <Route path="/connexion" element={<Connexion />} />
-              <Route path="/auth/callback" element={<AuthCallback />} />
               <Route path="/deconnexion" element={<Deconnexion />} />
-              <Route path="/panier" element={<Panier />} />
+              <Route path="/auth/callback" element={<AuthCallback />} />
 
-              {/* 404 */}
               <Route path="*" element={<div>404 - Page non trouvée</div>} />
             </Routes>
           </main>
         </BrowserRouter>
-      </CartProvider>
+      </FinanceProvider>
     </AuthProvider>
   );
 }

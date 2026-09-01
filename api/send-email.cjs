@@ -51,6 +51,12 @@ module.exports = async function handler(req, res) {
     return res.status(405).json({ message: 'Methode non autorisee.' });
   }
 
+  // Check if SMTP is configured
+  if (!SMTP_USER || !SMTP_PASS || SMTP_PLACEHOLDERS.has(SMTP_USER) || SMTP_PLACEHOLDERS.has(SMTP_PASS)) {
+    console.warn('SMTP non configuré - Email skippé');
+    return res.status(200).json({ message: 'Email skippé (SMTP non configuré)', skipped: true });
+  }
+
   const { to, name } = req.body || {};
 
   if (!to) {

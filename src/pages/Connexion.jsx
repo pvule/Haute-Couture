@@ -97,9 +97,9 @@ function Connexion() {
   const signupInProgressRef = useRef(false);
   const redirectTimeoutRef = useRef(null);
 
-  useEffect(() => {
+   useEffect(() => {
     if (user && !signupInProgressRef.current) {
-      navigate("/home", { replace: true });
+      navigate("/dashboard", { replace: true });
     }
   }, [user, navigate]);
 
@@ -126,7 +126,7 @@ function Connexion() {
         if (loginError) throw loginError;
 
         await saveUserProfile(data.user);
-        navigate("/home", { replace: true });
+               navigate("/dashboard", { replace: true });
         return;
       }
 
